@@ -55,6 +55,13 @@ $messages['ast'] = array(
 	'skinperpage-desc' => 'Añade la etiqueta <code>&lt;skin&gt;</code> pa usar pieles distintes per páxina',
 );
 
+/** Bavarian (Boarisch)
+ * @author Mucalexx
+ */
+$messages['bar'] = array(
+	'skinperpage-desc' => "Ergänzd as <code>&lt;skin&gt;</code>-Tag, daas d' pró Seiten unterschiadliche Skins nutzen kåst",
+);
+
 /** Southern Balochi (بلوچی مکرانی)
  * @author Mostafadaneshvar
  */

@@ -50,9 +50,10 @@ $messages['arz'] = array(
 
 /** Asturian (Asturianu)
  * @author Esbardu
+ * @author Xuacu
  */
 $messages['ast'] = array(
-	'skinperpage-desc' => 'Añade la etiqueta <code>&lt;skin&gt;</code> pa usar pieles distintes per páxina',
+	'skinperpage-desc' => 'Amiesta la etiqueta <code>&lt;skin&gt;</code> pa usar distintes apariencies por páxina',
 );
 
 /** Bavarian (Boarisch)

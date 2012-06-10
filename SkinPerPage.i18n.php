@@ -282,9 +282,10 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Aotake
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'skinperpage-desc' => 'ページ毎に異なるスキンを使用するための<code>&lt;skin&gt;</code>タグを追加する',
+	'skinperpage-desc' => 'ページ毎に異なる外装を使用するための<code>&lt;skin&gt;</code>タグを追加する',
 );
 
 /** Javanese (Basa Jawa)

@@ -27,7 +27,7 @@ $messages['aln'] = array(
 	'skinperpage-desc' => 'Adds <code><skin></code> tag të përdorni lëkurat të ndryshme për faqe',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -70,7 +70,7 @@ $messages['bcc'] = array(
 	'skinperpage-desc' => 'هورکنت <code>&lt;skin&gt;</code> برچسپء په استفاده مختلف این پوست ته هر صفحه ای',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -134,7 +134,7 @@ $messages['diq'] = array(
 	'skinperpage-desc' => 'Her pel de qey şuxulnayişê asyaişi <code>&lt;skin&gt;</code> etiket têare keno',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -196,7 +196,7 @@ $messages['frp'] = array(
 	'skinperpage-desc' => 'Apond la balisa <code>&lt;skin&gt;</code> por utilisar difèrentes entèrfaces per pâge.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -245,7 +245,7 @@ $messages['hr'] = array(
 	'skinperpage-desc' => 'Postavlja <code>&lt;skin&gt;</code> oznaku za korištenje različitih izgleda po stranici',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -442,7 +442,7 @@ $messages['ru'] = array(
 	'skinperpage-desc' => 'Добавляет тег <code>&lt;skin&gt;</code> для указания оформления страницы',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(

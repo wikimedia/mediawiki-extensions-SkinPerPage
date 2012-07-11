@@ -365,9 +365,7 @@ $messages['ms'] = array(
 	'skinperpage-desc' => 'Menambah tag <code>&lt;skin&gt;</code> untuk membolehkan pemakaian rupa yang berlainan pada setiap laman',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'skinperpage-desc' => 'Legger til en <code>&lt;skin&gt;</code>-tagg for å kunne bruke ulike utseender per side',
 );

@@ -162,6 +162,13 @@ $messages['es'] = array(
 	'skinperpage-desc' => 'Añade elemento <code>&lt;skin&gt;</code> para usar una piel diferente por página',
 );
 
+/** Estonian (eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'skinperpage-desc' => 'Lisab sildi <code>&lt;skin&gt;</code>, et kasutada erinevatel lehekülgedel erinevaid kujundusi.',
+);
+
 /** Basque (euskara)
  * @author An13sa
  */

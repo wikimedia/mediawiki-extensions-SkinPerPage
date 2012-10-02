@@ -70,7 +70,7 @@ $messages['bcc'] = array(
 	'skinperpage-desc' => 'هورکنت <code>&lt;skin&gt;</code> برچسپء په استفاده مختلف این پوست ته هر صفحه ای',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -372,7 +372,7 @@ $messages['ms'] = array(
 	'skinperpage-desc' => 'Menambah tag <code>&lt;skin&gt;</code> untuk membolehkan pemakaian rupa yang berlainan pada setiap laman',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'skinperpage-desc' => 'Legger til en <code>&lt;skin&gt;</code>-tagg for å kunne bruke ulike utseender per side',
 );
@@ -391,7 +391,7 @@ $messages['nl'] = array(
 	'skinperpage-desc' => 'Voegt de tag <code>&lt;skin&gt;</code> toe voor de instelling van vormgeving op paginaniveau',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  */
 $messages['nn'] = array(
@@ -490,7 +490,7 @@ $messages['sq'] = array(
 	'skinperpage-desc' => 'Vendosë kodin <code>&lt;skin&gt;</code> për të përdorur pamje të ndryshme për çdo faqe',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Millosh
  * @author Rancher
  * @author Жељко Тодоровић
@@ -499,7 +499,7 @@ $messages['sr-ec'] = array(
 	'skinperpage-desc' => 'Додаје ознаку <code>&lt;skin&gt;</code> за коришћење различитих тема на страницама',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -576,7 +576,7 @@ $messages['yue'] = array(
 	'skinperpage-desc' => '加<code>&lt;skin&gt;</code>標籤響每一版用唔同嘅皮',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Shinjiman
  * @author Xiaomingyan
  */
@@ -584,7 +584,7 @@ $messages['zh-hans'] = array(
 	'skinperpage-desc' => '添加“<code>&lt;skin&gt;</code>”标签在每一页面中使用不同的皮肤',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  * @author Shinjiman
  */

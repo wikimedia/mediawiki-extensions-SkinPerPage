@@ -176,7 +176,8 @@ $messages['eu'] = array(
 	'skinperpage-desc' => '<code>&lt;skin&gt;</code> erabiltzen du orriko skin ezberdinak erabiltzeko',
 );
 
-/** Persian (فارسی) */
+/** Persian (فارسی)
+ */
 $messages['fa'] = array(
 	'skinperpage-desc' => 'برچسب <code>&lt;skin&gt;</code> را اضافه می‌کند تا بتوان در هر صفحه از پوسته‌ای متفاوت استفاده کرد',
 );
@@ -372,7 +373,8 @@ $messages['ms'] = array(
 	'skinperpage-desc' => 'Menambah tag <code>&lt;skin&gt;</code> untuk membolehkan pemakaian rupa yang berlainan pada setiap laman',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'skinperpage-desc' => 'Legger til en <code>&lt;skin&gt;</code>-tagg for å kunne bruke ulike utseender per side',
 );
@@ -591,4 +593,3 @@ $messages['zh-hans'] = array(
 $messages['zh-hant'] = array(
 	'skinperpage-desc' => '加入 <code>&lt;skin&gt;</code> 標籤在每一頁面中使用不同的外觀',
 );
-

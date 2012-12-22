@@ -430,9 +430,10 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
+ * @author 555
  */
 $messages['pt-br'] = array(
-	'skinperpage-desc' => 'Adiciona a marca <code>&lt;skin&gt;</code> para usar temas diferentes por página',
+	'skinperpage-desc' => 'Adiciona a tag <code>&lt;skin&gt;</code>, possibilitando que cada página use um skin diferente da outra',
 );
 
 /** tarandíne (tarandíne)

@@ -14,10 +14,11 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'skinperpage-desc' => '{{desc}}',
+	'skinperpage-desc' => '{{desc|name=Skin Per Page|url=http://www.mediawiki.org/wiki/Extension:SkinPerPage}}',
 );
 
 /** Gheg Albanian (Gegë)

@@ -346,6 +346,13 @@ $messages['li'] = array(
 	'skinperpage-desc' => 'Voegt de tag <code>&lt;skin&gt;</code> toe veur de instelling van vormgeving op paginaniveau',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'skinperpage-desc' => 'Tambahkan tag <code>&lt;skin&gt;</code> untuak manggunoan kulik nan babedo satiok laman',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */

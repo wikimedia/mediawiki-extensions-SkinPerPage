@@ -388,7 +388,7 @@ $messages['ms'] = array(
 	'skinperpage-desc' => 'Menambah tag <code>&lt;skin&gt;</code> untuk membolehkan pemakaian rupa yang berlainan pada setiap laman',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'skinperpage-desc' => 'Legger til en <code>&lt;skin&gt;</code>-tagg for å kunne bruke ulike utseender per side',
@@ -408,7 +408,7 @@ $messages['nl'] = array(
 	'skinperpage-desc' => 'Voegt de tag <code>&lt;skin&gt;</code> toe voor de instelling van vormgeving op paginaniveau',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  */
 $messages['nn'] = array(

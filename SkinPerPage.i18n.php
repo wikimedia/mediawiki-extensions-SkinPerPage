@@ -282,6 +282,13 @@ $messages['id'] = array(
 	'skinperpage-desc' => 'Menambahkan tag <code>&lt;skin&gt;</code> untuk menggunakan kulit yang berbeda per halaman',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'skinperpage-desc' => 'Agnayon ti etiketa ti <code>&lt;skin&gt;</code> tapno makausar kadagiti nadumaduma a kudil iti tunggal maysa a panid',
+);
+
 /** Italian (italiano)
  * @author Melos
  */

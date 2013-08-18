@@ -327,9 +327,10 @@ $messages['km'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
-	'skinperpage-desc' => '문서마다 다른 스킨을 사용할 수 있게 <code>&lt;skin&gt;</code> 태그를 추가',
+	'skinperpage-desc' => '문서마다 다른 스킨을 사용할 수 있게 <code>&lt;skin&gt;</code> 태그를 추가합니다',
 );
 
 /** Colognian (Ripoarisch)

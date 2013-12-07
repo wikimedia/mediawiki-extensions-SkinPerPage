@@ -107,7 +107,7 @@ $messages['ca'] = array(
 	'skinperpage-desc' => "Afegeix l'etiqueta de sintaxi <code>&lt;skin&gt;</code> que permet usar diferents aparences per pàgina",
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Danny B.
  */
 $messages['cs'] = array(

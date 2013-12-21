@@ -158,9 +158,10 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Remember the dot
+ * @author Vivaelcelta
  */
 $messages['es'] = array(
-	'skinperpage-desc' => 'Añade elemento <code>&lt;skin&gt;</code> para usar una piel diferente por página',
+	'skinperpage-desc' => 'Añade la etiqueta <code>&lt;skin&gt;</code> para usar diferentes apariencias por página',
 );
 
 /** Estonian (eesti)

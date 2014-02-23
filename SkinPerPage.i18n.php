@@ -481,6 +481,13 @@ $messages['sah'] = array(
 	'skinperpage-desc' => 'Сирэй тас көстүүтүн быһаарар <code>&lt;skin&gt;</code> тиэги эбэр',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'skinperpage-desc' => 'Adds <code>&lt;skin&gt;</code> tag tae uise different skins per page',
+);
+
 /** Sinhala (සිංහල)
  * @author Singhalawap
  * @author පසිඳු කාවින්ද

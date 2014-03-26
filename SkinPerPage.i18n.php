@@ -485,7 +485,7 @@ $messages['sah'] = array(
  * @author John Reid
  */
 $messages['sco'] = array(
-	'skinperpage-desc' => 'Adds <code>&lt;skin&gt;</code> tag tae uise different skins per page',
+	'skinperpage-desc' => 'Eiks <code>&lt;skin&gt;</code> tag tae uise differant skins per page',
 );
 
 /** Sinhala (සිංහල)

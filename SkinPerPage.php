@@ -9,12 +9,13 @@ if (!defined('MEDIAWIKI')) die();
 $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'Skin per page',
-	'version'        => '1.0',
+	'version'        => '1.1.0',
 	'author'         => 'Tim Starling',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:SkinPerPage',
 	'descriptionmsg' => 'skinperpage-desc',
 );
 
+$wgMessagesDirs['SkinPerPage'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['SkinPerPage'] = dirname( __FILE__ ) . "/SkinPerPage.i18n.php";
 
 $wgHooks['ParserFirstCallInit'][] = 'SkinPerPage::setup';

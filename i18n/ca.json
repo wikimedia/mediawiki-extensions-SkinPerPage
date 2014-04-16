@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "SMP"
-        ]
-    },
-    "skinperpage-desc": "Afegeix l'etiqueta de sintaxi <code>&lt;skin&gt;</code> que permet usar diferents aparences per pàgina"
+	"@metadata": {
+		"authors": [
+			"SMP"
+		]
+	},
+	"skinperpage-desc": "Afegeix l'etiqueta de sintaxi <code>&lt;skin&gt;</code> que permet usar diferents aparences per pàgina"
 }

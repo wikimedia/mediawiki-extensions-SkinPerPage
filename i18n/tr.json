@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Joseph"
-        ]
-    },
-    "skinperpage-desc": "Her sayfada farklı dış görünüm kullanmak için <code>&lt;skin&gt;</code> etiketini ekler"
+	"@metadata": {
+		"authors": [
+			"Joseph"
+		]
+	},
+	"skinperpage-desc": "Her sayfada farklı dış görünüm kullanmak için <code>&lt;skin&gt;</code> etiketini ekler"
 }

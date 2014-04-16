@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "M.M.S."
-        ]
-    },
-    "skinperpage-desc": "Lägger till <code>&lt;skin&gt;</code>-taggen för att använda olika utseenden per sida"
+	"@metadata": {
+		"authors": [
+			"M.M.S."
+		]
+	},
+	"skinperpage-desc": "Lägger till <code>&lt;skin&gt;</code>-taggen för att använda olika utseenden per sida"
 }

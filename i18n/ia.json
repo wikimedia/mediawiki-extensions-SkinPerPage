@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "McDutchie"
-        ]
-    },
-    "skinperpage-desc": "Adde le etiquetta <code>&lt;skin&gt;</code> pro usar stilos differente per pagina"
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"skinperpage-desc": "Adde le etiquetta <code>&lt;skin&gt;</code> pro usar stilos differente per pagina"
 }

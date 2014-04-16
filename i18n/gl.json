@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "skinperpage-desc": "Engade a etiqueta <code>&lt;skin&gt;</code> para usar diferentes aparencias por páxina"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"skinperpage-desc": "Engade a etiqueta <code>&lt;skin&gt;</code> para usar diferentes aparencias por páxina"
 }

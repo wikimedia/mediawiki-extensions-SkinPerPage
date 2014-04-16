@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Nike"
-        ]
-    },
-    "skinperpage-desc": "Lisää <code>&lt;skin&gt;</code>-elementin, jolla voi vaihtaa ulkoasua sivukohtaisesti."
+	"@metadata": {
+		"authors": [
+			"Nike"
+		]
+	},
+	"skinperpage-desc": "Lisää <code>&lt;skin&gt;</code>-elementin, jolla voi vaihtaa ulkoasua sivukohtaisesti."
 }

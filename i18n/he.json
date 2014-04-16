@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Rotem Liss"
-        ]
-    },
-    "skinperpage-desc": "הוספת תגית <code>&lt;skin&gt;</code> לשימוש ברקעים שונים בדפים שונים"
+	"@metadata": {
+		"authors": [
+			"Rotem Liss"
+		]
+	},
+	"skinperpage-desc": "הוספת תגית <code>&lt;skin&gt;</code> לשימוש ברקעים שונים בדפים שונים"
 }

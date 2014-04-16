@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dani"
-        ]
-    },
-    "skinperpage-desc": "<code>&lt;skin&gt;</code> tag, ami segítségével laponként más felületet lehet beállítani"
+	"@metadata": {
+		"authors": [
+			"Dani"
+		]
+	},
+	"skinperpage-desc": "<code>&lt;skin&gt;</code> tag, ami segítségével laponként más felületet lehet beállítani"
 }

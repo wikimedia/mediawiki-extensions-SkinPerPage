@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vinhtantran"
+			"Vinhtantran",
+			"Minh Nguyen"
 		]
 	},
-	"skinperpage-desc": "Thêm thẻ <code>&lt;skin&gt;</code> để dùng các hình dạng khác nhau cho mỗi trang"
+	"skinperpage-desc": "Thêm thẻ <code>&lt;skin&gt;</code> để dùng các giao diện khác nhau cho mỗi trang"
 }

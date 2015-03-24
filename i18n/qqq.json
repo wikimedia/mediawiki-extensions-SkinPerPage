@@ -3,8 +3,9 @@
 		"authors": [
 			"Purodha",
 			"Shirayuki",
-			"The Evil IP address"
+			"The Evil IP address",
+			"Umherirrender"
 		]
 	},
-	"skinperpage-desc": "{{desc|name=Skin Per Page|url=http://www.mediawiki.org/wiki/Extension:SkinPerPage}}"
+	"skinperpage-desc": "{{desc|name=Skin Per Page|url=https://www.mediawiki.org/wiki/Extension:SkinPerPage}}"
 }

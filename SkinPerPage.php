@@ -54,8 +54,13 @@ class SkinPerPage {
 	 */
 	public static function onOutputPageParserOutput( OutputPage $out, ParserOutput $parserOutput ) {
 		if ( isset( $parserOutput->spp_skin ) ) {
-			$skin = trim( strtolower( $parserOutput->spp_skin ) );
-			RequestContext::getMain()->setSkin( Skin::newFromKey( $skin ) );
+			$key = Skin::normalizeKey( trim( strtolower( $parserOutput->spp_skin ) ) );
+			if ( class_exists( 'SkinFactory' ) ) {
+				$skin = SkinFactory::getDefaultInstance()->makeSkin( $key );
+			} else {
+				$skin = Skin::newFromKey( $key );
+			}
+			RequestContext::getMain()->setSkin( $skin );
 		}
 		return true;
 	}

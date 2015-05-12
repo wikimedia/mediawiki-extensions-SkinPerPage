@@ -16,7 +16,6 @@ $wgExtensionCredits['parserhook'][] = array(
 );
 
 $wgMessagesDirs['SkinPerPage'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SkinPerPage'] = __DIR__ . "/SkinPerPage.i18n.php";
 $wgExtensionMessagesFiles['SkinPerPageMagic'] = __DIR__ . '/SkinPerPage.i18n.magic.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'SkinPerPage::onParserFirstCallInit';

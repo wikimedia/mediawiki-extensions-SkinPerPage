@@ -23,7 +23,7 @@ $wgHooks['ParserFirstCallInit'][] = 'SkinPerPage::setup';
 $wgHooks['OutputPageParserOutput'][] = 'SkinPerPage::outputHook';
 
 class SkinPerPage {
-	static function setup( $parser ) {
+	static function setup( Parser $parser ) {
 		# Old one for backwards compatibility
 		$parser->setHook( 'skin', array( __CLASS__, 'parserHook' ) );
 		# Function-style one that users should actually use
@@ -43,7 +43,7 @@ class SkinPerPage {
 	}
 
 	static function outputHook2( $parser, $skin = '' ) {
-		SkinPerPage::renderHook( $skin );
+		SkinPerPage::parserHook( $skin, array(), $parser );
 	}
 
 	static function renderHook( $skin ) {

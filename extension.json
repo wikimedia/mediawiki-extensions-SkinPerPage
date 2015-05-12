@@ -1,0 +1,30 @@
+{
+	"name": "Skin per page",
+	"version": "1.1.0",
+	"author": [
+		"Tim Starling",
+		"Calimonius the Estrange"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SkinPerPage",
+	"descriptionmsg": "skinperpage-desc",
+	"type": "parserhook",
+	"AutoloadClasses": {
+		"SkinPerPage": "SkinPerPage.body.php"
+	},
+	"ExtensionMessagesFiles": {
+		"SkinPerPageMagic": "SkinPerPage.i18n.magic.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"SkinPerPage::onParserFirstCallInit"
+		],
+		"OutputPageParserOutput": [
+			"SkinPerPage::onOutputPageParserOutput"
+		]
+	},
+	"MessagesDirs": {
+		"SkinPerPage": [
+			"i18n"
+		]
+	}
+}

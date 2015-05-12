@@ -1,24 +1,15 @@
 <?php
-if (!defined('MEDIAWIKI')) die();
 
-/**
- * @file
- * @ingroup Extensions
- */
-
-$wgExtensionCredits['parserhook'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'Skin per page',
-	'version'        => '1.1.0',
-	'author'         => array( 'Tim Starling', 'Calimonius the Estrange' ),
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:SkinPerPage',
-	'descriptionmsg' => 'skinperpage-desc',
-);
-
-$wgMessagesDirs['SkinPerPage'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SkinPerPageMagic'] = __DIR__ . '/SkinPerPage.i18n.magic.php';
-
-$wgHooks['ParserFirstCallInit'][] = 'SkinPerPage::onParserFirstCallInit';
-$wgHooks['OutputPageParserOutput'][] = 'SkinPerPage::onOutputPageParserOutput';
-
-$wgAutoloadClasses['SkinPerPage'] = __DIR__ . '/SkinPerPage.body.php';
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'SkinPerPage' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['SkinPerPage'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['SkinPerPageMagic'] = __DIR__ . '/SkinPerPage.i18n.magic.php';
+	/* wfWarn(
+		'Deprecated PHP entry point used for SkinPerPage extension. Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	); */
+	return true;
+} else {
+	die( 'This version of the SkinPerPage extension requires MediaWiki 1.25+' );
+}

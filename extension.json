@@ -1,10 +1,13 @@
 {
 	"name": "Skin per page",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"author": [
 		"Tim Starling",
 		"Calimonius the Estrange"
 	],
+	"requires": {
+		"MediaWiki": ">= 1.27.0"
+	},
 	"url": "https://www.mediawiki.org/wiki/Extension:SkinPerPage",
 	"descriptionmsg": "skinperpage-desc",
 	"type": "parserhook",

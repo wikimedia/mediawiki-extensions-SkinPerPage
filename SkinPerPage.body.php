@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class SkinPerPage {
 	/**
 	 * Register our extension tag and parser function
@@ -9,9 +11,9 @@ class SkinPerPage {
 	 */
 	public static function onParserFirstCallInit( Parser $parser ) {
 		# Old one for backwards compatibility
-		$parser->setHook( 'skin', array( __CLASS__, 'parserHook' ) );
+		$parser->setHook( 'skin', [ __CLASS__, 'parserHook' ] );
 		# Function-style one that users should actually use
-		$parser->setFunctionHook( 'useskin', array( __CLASS__, 'useskinHook' ) );
+		$parser->setFunctionHook( 'useskin', [ __CLASS__, 'useskinHook' ] );
 		return true;
 	}
 
@@ -32,12 +34,10 @@ class SkinPerPage {
 	 */
 	public static function onOutputPageParserOutput( OutputPage $out, ParserOutput $parserOutput ) {
 		if ( isset( $parserOutput->spp_skin ) ) {
-			$key = Skin::normalizeKey( trim( strtolower( $parserOutput->spp_skin ) ) );
-			if ( class_exists( 'SkinFactory' ) ) {
-				$skin = SkinFactory::getDefaultInstance()->makeSkin( $key );
-			} else {
-				$skin = Skin::newFromKey( $key );
-			}
+			$key = Skin::normalizeKey( strtolower( trim( $parserOutput->spp_skin ) ) );
+
+			$skin = MediaWikiServices::getInstance()->getSkinFactory()->makeSkin( $key );
+
 			RequestContext::getMain()->setSkin( $skin );
 		}
 		return true;
@@ -50,6 +50,6 @@ class SkinPerPage {
 	 * @param string $skin
 	 */
 	public static function useskinHook( Parser $parser, $skin = '' ) {
-		SkinPerPage::parserHook( $skin, array(), $parser );
+		self::parserHook( $skin, [], $parser );
 	}
 }

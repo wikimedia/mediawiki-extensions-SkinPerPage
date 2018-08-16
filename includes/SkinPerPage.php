@@ -21,7 +21,7 @@ class SkinPerPage {
 	 * Handler for <skin>foo</skin>
 	 */
 	public static function parserHook( $text, $attribs, Parser $parser ) {
-		$parser->mOutput->spp_skin = $text;
+		$parser->getOutput()->setExtensionData( 'spp_skin', $text );
 		return '';
 	}
 
@@ -33,8 +33,11 @@ class SkinPerPage {
 	 * @return bool
 	 */
 	public static function onOutputPageParserOutput( OutputPage $out, ParserOutput $parserOutput ) {
-		if ( isset( $parserOutput->spp_skin ) ) {
-			$key = Skin::normalizeKey( strtolower( trim( $parserOutput->spp_skin ) ) );
+		$key = $parserOutput->getExtensionData( 'spp_skin' ) ??
+			// fallback to legacy property for old cache entries
+			( $parserOutput->spp_skin ?? false );
+		if ( $key !== false ) {
+			$key = Skin::normalizeKey( strtolower( trim( $key ) ) );
 
 			$skin = MediaWikiServices::getInstance()->getSkinFactory()->makeSkin( $key );
 

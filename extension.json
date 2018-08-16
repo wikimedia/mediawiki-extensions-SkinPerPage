@@ -6,7 +6,7 @@
 		"Calimonius the Estrange"
 	],
 	"requires": {
-		"MediaWiki": ">= 1.27.0"
+		"MediaWiki": ">= 1.31.0"
 	},
 	"url": "https://www.mediawiki.org/wiki/Extension:SkinPerPage",
 	"descriptionmsg": "skinperpage-desc",

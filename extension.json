@@ -12,7 +12,7 @@
 	"descriptionmsg": "skinperpage-desc",
 	"type": "parserhook",
 	"AutoloadClasses": {
-		"SkinPerPage": "SkinPerPage.body.php"
+		"SkinPerPage": "includes/SkinPerPage.php"
 	},
 	"ExtensionMessagesFiles": {
 		"SkinPerPageMagic": "SkinPerPage.i18n.magic.php"

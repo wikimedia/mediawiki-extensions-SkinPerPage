@@ -19,6 +19,10 @@ class SkinPerPage {
 
 	/**
 	 * Handler for <skin>foo</skin>
+	 * @param string $text
+	 * @param array $attribs
+	 * @param Parser $parser
+	 * @return string
 	 */
 	public static function parserHook( $text, $attribs, Parser $parser ) {
 		$parser->getOutput()->setExtensionData( 'spp_skin', $text );

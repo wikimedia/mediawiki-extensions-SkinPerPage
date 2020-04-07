@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"skinperpage-desc": "Legger til en <code>&lt;skin&gt;</code>-tagg for å kunne bruke ulike utseender per side"
 }

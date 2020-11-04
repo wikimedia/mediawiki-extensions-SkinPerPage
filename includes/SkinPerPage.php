@@ -39,6 +39,7 @@ class SkinPerPage {
 	public static function onOutputPageParserOutput( OutputPage $out, ParserOutput $parserOutput ) {
 		$key = $parserOutput->getExtensionData( 'spp_skin' ) ??
 			// fallback to legacy property for old cache entries
+			// @phan-suppress-next-line PhanUndeclaredProperty
 			( $parserOutput->spp_skin ?? false );
 		if ( $key !== false ) {
 			$key = Skin::normalizeKey( strtolower( trim( $key ) ) );

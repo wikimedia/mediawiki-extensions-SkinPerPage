@@ -37,10 +37,8 @@ class SkinPerPage {
 	 * @return bool
 	 */
 	public static function onOutputPageParserOutput( OutputPage $out, ParserOutput $parserOutput ) {
-		$key = $parserOutput->getExtensionData( 'spp_skin' ) ??
-			// fallback to legacy property for old cache entries
-			( $parserOutput->spp_skin ?? false );
-		if ( $key !== false ) {
+		$key = $parserOutput->getExtensionData( 'spp_skin' );
+		if ( $key !== null ) {
 			$key = Skin::normalizeKey( strtolower( trim( $key ) ) );
 
 			$skin = MediaWikiServices::getInstance()->getSkinFactory()->makeSkin( $key );

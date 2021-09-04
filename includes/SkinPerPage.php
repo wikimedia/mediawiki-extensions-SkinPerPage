@@ -40,9 +40,22 @@ class SkinPerPage {
 		$key = $parserOutput->getExtensionData( 'spp_skin' );
 		if ( $key !== null ) {
 			$key = Skin::normalizeKey( strtolower( trim( $key ) ) );
+			$skinFactory = MediaWikiServices::getInstance()->getSkinFactory();
 
-			$skin = MediaWikiServices::getInstance()->getSkinFactory()->makeSkin( $key );
+			$allowedSkins = $skinFactory->getAllowedSkins();
+			if ( !array_key_exists( $key, $allowedSkins ) ) {
+				$out->addHTML(
+					Html::element(
+						'span',
+						[ 'class' => 'error' ],
+						$out->msg( 'skinperpage-noskin' )
+							->rawParams( htmlspecialchars( $key, ENT_QUOTES ) )
+							->text()
+					)
+				);
+			}
 
+			$skin = $skinFactory->makeSkin( $key );
 			RequestContext::getMain()->setSkin( $skin );
 		}
 		return true;

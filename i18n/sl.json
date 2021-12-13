@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
-	"skinperpage-desc": "Doda etiketo <code>&lt;skin&gt;</code> za uporabo različnih kož na straneh"
+	"skinperpage-desc": "Doda značko <code>&lt;skin&gt;</code> za uporabo različnih kož na straneh"
 }

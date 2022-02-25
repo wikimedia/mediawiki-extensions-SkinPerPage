@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"AS",
-			"DDPAT"
+			"DDPAT",
+			"Ice bulldog"
 		]
 	},
 	"skinperpage-desc": "Дозволяє використовувати тег <code>&lt;skin&gt;</code> для вказання теми оформлення сторінки",

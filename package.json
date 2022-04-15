@@ -1,4 +1,5 @@
 {
+	"name": "SkinPerPage",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"

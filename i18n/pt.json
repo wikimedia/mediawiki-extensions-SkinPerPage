@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Malafaya"
+			"Malafaya",
+			"Hamilton Abreu"
 		]
 	},
-	"skinperpage-desc": "Adiciona a tag <code>&lt;skin&gt;</code> para usar temas diferentes por página"
+	"skinperpage-desc": "Adiciona a etiqueta <code>&lt;skin&gt;</code> para usar temas diferentes por página"
 }

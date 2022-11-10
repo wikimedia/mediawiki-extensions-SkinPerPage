@@ -4,5 +4,6 @@
 			"McDutchie"
 		]
 	},
-	"skinperpage-desc": "Adde le etiquetta <code>&lt;skin&gt;</code> pro usar stilos differente per pagina"
+	"skinperpage-desc": "Adde le etiquetta <code>&lt;skin&gt;</code> pro usar stilos differente per pagina",
+	"skinperpage-noskin": "Non pote usar le apparentia '$1' perque es incognite o invalide."
 }

@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Rotem Liss"
 		]
 	},
-	"skinperpage-desc": "הוספת תגית <code>&lt;skin&gt;</code> לשימוש ברקעים שונים בדפים שונים"
+	"skinperpage-desc": "הוספת תגית <code>&lt;skin&gt;</code> לשימוש ברקעים שונים בדפים שונים",
+	"skinperpage-noskin": "לא ניתן להשתמש בעיצוב \"$1\" מכיוון שהוא לא ידוע או לא תקין."
 }

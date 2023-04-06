@@ -1,6 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Jon Harald Søby"
+		]
 	},
-	"skinperpage-desc": "Legger til en <code>&lt;skin&gt;</code>-tagg for å kunne bruke ulike utseender per side"
+	"skinperpage-desc": "Legger til en <code>&lt;skin&gt;</code>-tagg for å kunne bruke ulike utseender per side",
+	"skinperpage-noskin": "Kan ikke bruke drakta «$1» siden den er ukjent eller ugyldig."
 }

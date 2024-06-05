@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			555,
 			"Eduardo.mps",
-			"Eduardoaddad",
-			555
+			"Eduardoaddad"
 		]
 	},
 	"skinperpage-desc": "Adiciona a tag <code>&lt;skin&gt;</code>, possibilitando que cada página use um skin diferente da outra",

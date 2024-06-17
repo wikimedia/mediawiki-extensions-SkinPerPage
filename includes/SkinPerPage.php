@@ -39,10 +39,18 @@ class SkinPerPage {
 	public static function onOutputPageParserOutput( OutputPage $out, ParserOutput $parserOutput ) {
 		$key = $parserOutput->getExtensionData( 'spp_skin' );
 		if ( $key !== null ) {
-			$key = Skin::normalizeKey( strtolower( trim( $key ) ) );
+			$key = strtolower( trim( $key ) );
+			// Do *not* use Skin::normalizeKey() because if the requested skin
+			// is invalid we want to say so; partial implementation of the
+			// logic from normalizeKey() but without the fallback to
+			// $wgDefaultSkin or $wgFallbackSkin, and no support for the
+			// numeric settings '0' and '2' for the default or for cologneblue.
 			$skinFactory = MediaWikiServices::getInstance()->getSkinFactory();
 
 			$allowedSkins = $skinFactory->getAllowedSkins();
+			// Make keys lowercase for case-insensitive matching.
+			$allowedSkins = array_change_key_case( $allowedSkins, CASE_LOWER );
+
 			if ( !array_key_exists( $key, $allowedSkins ) ) {
 				$out->addHTML(
 					Html::element(
@@ -53,6 +61,8 @@ class SkinPerPage {
 							->text()
 					)
 				);
+				// Don't try and set the request skin
+				return true;
 			}
 
 			$skin = $skinFactory->makeSkin( $key );

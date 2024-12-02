@@ -4,5 +4,6 @@
 			"Toliño"
 		]
 	},
-	"skinperpage-desc": "Engade a etiqueta <code>&lt;skin&gt;</code> para usar diferentes aparencias por páxina"
+	"skinperpage-desc": "Engade a etiqueta <code>&lt;skin&gt;</code> para usar diferentes aparencias por páxina",
+	"skinperpage-noskin": "Non se pode usar a aparencia \"$1\" xa que é descoñecida ou non é válida."
 }

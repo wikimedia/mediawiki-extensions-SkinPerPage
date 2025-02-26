@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Aotake",
-			"Shirayuki"
+			"Shirayuki",
+			"Yaakiyu.jp"
 		]
 	},
-	"skinperpage-desc": "ページ毎に異なる外装を使用するための<code>&lt;skin&gt;</code>タグを追加する"
+	"skinperpage-desc": "ページ毎に異なるスキンを使用するための<code>&lt;skin&gt;</code>タグを追加する"
 }

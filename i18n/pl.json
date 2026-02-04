@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sp5uhe"
+			"Sp5uhe",
+			"Woytecr"
 		]
 	},
-	"skinperpage-desc": "Dodaje znacznik <code>&lt;skin&gt;</code> umożliwiający użycie wielu skórek na jednej stronie."
+	"skinperpage-desc": "Dodaje znacznik <code>&lt;skin&gt;</code> umożliwiający użycie innych skórek na wybranych stronach.",
+	"skinperpage-noskin": "Nie można użyć skórki '$1', ponieważ jest nieznana lub nieprawidłowa."
 }

@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Wizzard"
 		]
 	},
-	"skinperpage-desc": "Pridáva značku <code>&lt;skin&gt;</code>, ktorá umožňuje na jednotlivej stránke použiť odlišnú tému vzhľadu"
+	"skinperpage-desc": "Pridáva značku <code>&lt;skin&gt;</code>, ktorá umožňuje na jednotlivej stránke použiť odlišnú tému vzhľadu",
+	"skinperpage-noskin": "Tému vzhľadu „$1\" nemožno použiť, pretože je neznáma alebo neplatná."
 }

@@ -3,8 +3,10 @@
 		"authors": [
 			"Aotake",
 			"Shirayuki",
+			"Tensama0415",
 			"Yaakiyu.jp"
 		]
 	},
-	"skinperpage-desc": "ページ毎に異なる外装を使用するための <code>&lt;skin&gt;</code> タグを追加する"
+	"skinperpage-desc": "ページ毎に異なる外装を使用するための <code>&lt;skin&gt;</code> タグを追加する",
+	"skinperpage-noskin": "外装 「$1」 は不明または無効なため使用できません。"
 }

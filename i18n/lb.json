@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
-	"skinperpage-desc": "Setzt de <code>&lt;skin&gt;</code> Tag dobäi den et erlaabt op enger Wiki eent aner Ausgesinn (Skin) ze benotzen"
+	"skinperpage-desc": "Setzt de <code>&lt;skin&gt;</code> Tag dobäi den et erlaabt op enger Wiki eent aner Ausgesinn (Skin) ze benotzen",
+	"skinperpage-noskin": "D'Benotzeruewerfläch „$1“ kann net benotzt ginn, well se onbekannt oder ongülteg ass."
 }

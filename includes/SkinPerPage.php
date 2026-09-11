@@ -58,7 +58,7 @@ class SkinPerPage {
 						'span',
 						[ 'class' => 'error' ],
 						$out->msg( 'skinperpage-noskin' )
-							->rawParams( htmlspecialchars( $key, ENT_QUOTES ) )
+							->plaintextParams( $key )
 							->text()
 					)
 				);
